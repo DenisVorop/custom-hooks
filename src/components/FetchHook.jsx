@@ -6,6 +6,7 @@ const FetchHook = () => {
 
     return (
         <div>
+            <h2>Fetch custom hook</h2>
             {isLoading ? <div>Loading...</div> : <div>Data: {JSON.stringify(data, 2)}</div>}
             {error && <div>Error: {error}</div>}
         </div>
